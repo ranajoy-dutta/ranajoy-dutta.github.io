@@ -74,12 +74,12 @@ header a, a:visited {
 }
 
 .stars {
-  background:#000 url(img/stars.png) repeat top center;
+  background:#000 url(../img/stars.png) repeat top center;
   z-index:0;
 }
 
 .twinkling{
-  background:transparent url(img/twinkling.png) repeat top center;
+  background:transparent url(../img/twinkling.png) repeat top center;
   z-index:1;
 
   -moz-animation:move-twink-back 200s linear infinite;
@@ -91,7 +91,7 @@ header a, a:visited {
 
 .clouds{
     background:transparent url();
-    background: white url('img/clouds3.png') repeat top center;
+    background: white url('../img/clouds3.png') repeat top center;
     
     z-index:3;
 
@@ -122,7 +122,7 @@ hr{
   padding-left: 10px;
   width: 50%;
   margin: auto;
-  border: 2px solid black;
+  border: 2.5px solid black;
   border-radius: 2%;
 
 }
