@@ -59,7 +59,6 @@ header a, a:visited {
 
 .clouds{
     background: white url('../img/clouds3.png') repeat top center;
-    
     z-index:3;
 
 
@@ -77,7 +76,7 @@ hr{
 
 #title {
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 0;
   right: 0;
   color: #000;
@@ -85,7 +84,7 @@ hr{
   font-family: "lato", sans-serif;
   font-weight: 300;
   font-size: 50px;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
   padding-left: 10px;
   width: 50%;
   margin: auto;
@@ -96,7 +95,8 @@ hr{
 
 #detail{
   -webkit-background-clip: text;
-  font-size: 20px;
+  letter-spacing: 0.15em;
+  font-size: 2vw;
 }
 #logo{
   padding: 0;
@@ -105,16 +105,23 @@ hr{
   display: inline-block;
   list-style: none;
 }
+@media only screen and (min-device-width:1100px){
 #logo img{
   height: 50;
   width: 50px;
-}
-
-#title span {
-  background: -webkit-linear-gradient(white, black);
+}}
+@media only screen and (max-device-width:1200px){
+#logo img{
+  height: 3.5vh;
+  width: 3.5vw;
+}}
+#title h3 {
+  background: -webkit-linear-gradient(grey, black);
   -webkit-background-clip: text;
   font-family: 'Lobster', cursive;
   -webkit-text-fill-color: transparent;
+  font-size: 4.5vw ;
+  font-weight: normal;
 }
 
 @keyframes animStar {
