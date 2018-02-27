@@ -90,7 +90,7 @@ header a, a:visited {
 }
 
 .clouds{
-    background: white url('../img/clouds3.png') repeat top center;
+    background: transparent url('../img/clouds3.png') repeat top center;
     
     z-index:3;
 
