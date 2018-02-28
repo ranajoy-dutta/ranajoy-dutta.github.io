@@ -121,7 +121,11 @@ hr{
   font-family: 'Lobster', cursive;
   -webkit-text-fill-color: transparent;
   font-size: 4.5vw ;
+<<<<<<< HEAD
   font-weight: normal;
+=======
+  font-weight: bold;
+>>>>>>> origin/master
 }
 
 @keyframes animStar {
