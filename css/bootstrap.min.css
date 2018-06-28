@@ -39,7 +39,22 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-
+  @media (max-width: 576px) {
+    #register {
+      display: none;} }
+  @media (min-width: 576px) {
+    #register {
+      display: none;} }
+  @media (min-width: 768px) {
+    #register {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
+    #register {
+      max-width: 960px; } }
+  @media (min-width: 1200px) {
+    #register{
+      max-width: 960px; } 
+}
 *,
 *::before,
 *::after {
@@ -60,6 +75,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
   display: block; }
 
 body {
+  overflow-x: hidden;
   margin: 0;
   font-family: Roboto;
   font-size: 1rem;
