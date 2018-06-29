@@ -1,9 +1,4 @@
-/*!
-* Aquamarine Pingendo template (https://templates.pingendo.com)
-* Based on: Bootstrap v4.0.0 (https://getbootstrap.com)
-* Copyright 2014-2018 Pingendo (https://pingendo.com)
-*/
-@import url("https://fonts.googleapis.com/css?family=Roboto:200,300,400");
+import url("https://fonts.googleapis.com/css?family=Roboto:200,300,400");
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -42,19 +37,7 @@
   @media (max-width: 576px) {
     #register {
       display: none;} }
-  @media (min-width: 576px) {
-    #register {
-      display: none;} }
-  @media (min-width: 768px) {
-    #register {
-      max-width: 720px; } }
-  @media (min-width: 992px) {
-    #register {
-      max-width: 960px; } }
-  @media (min-width: 1200px) {
-    #register{
-      max-width: 960px; } 
-}
+
 *,
 *::before,
 *::after {
